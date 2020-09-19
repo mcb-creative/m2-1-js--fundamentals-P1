@@ -1,3 +1,4 @@
+//complete
 function exercise6_1() {
   // Exercise 6.1
   //
@@ -6,6 +7,9 @@ function exercise6_1() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  for (let num = 0; num < 101; num++) {
+    console.log(num);
+  }
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
