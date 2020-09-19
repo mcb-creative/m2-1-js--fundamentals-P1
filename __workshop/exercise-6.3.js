@@ -1,3 +1,4 @@
+// complete
 function exercise6_3() {
   // Exercise 6.3
   //
@@ -6,6 +7,11 @@ function exercise6_3() {
   //
   // Write code between the lines (below)
   // -----------------------------------------------------------------
+  for (let num = 0; num < 51; num += 2) {
+    if (num > 0 && num % 2 === 0) {
+      console.log(num)
+    }
+  }
   // -----------------------------------------------------------------
   // Write code between the lines (above)
   //
