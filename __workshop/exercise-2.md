@@ -30,13 +30,12 @@ easier to read. Like the gap between 2. and 1. in the example's solution.
 #### Solution:
 
 ```
-5. for (let i = 0; i < 10; i++) {
-2.   let isEven = i % 2 === 0;
-
-1.   if (isEven) {
-3.     console.log(i, 'is an even number!');
-4.   }
-6. }
+for (let i = 0; i < 10; i++) {
+    let isEven = i % 2 === 0;
+    if (isEven) {
+        console.log(i, 'is an even number!')
+        }
+        }
 ```
 
 ## Question 1: Check if the sentence includes the word "Hello".
@@ -53,7 +52,12 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 
 ```
 // Your solution here!
-
+let sentence = 'Hello world!'
+if (sentence.indexOf('Hello') >= 0) {
+    console.log('Sentence DOES contain the word "Hello"');
+} else {
+    console.log('Sentence DOES NOT contain the word "Hello"');
+}
 ```
 
 ## Question 2: Get the specified item in the nested array
@@ -66,6 +70,13 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 
 ```
 // Your solution here!
+const firstIndex = 0;
+const secondIndex = 1;
+const thirdIndex = 0;
+const array = [[1, [2, 3]]];
+console.log(array[firstIndex][secondIndex][thirdIndex]);
+
+
 
 ```
 
@@ -80,6 +91,12 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 
 ```
 // Your solution here!
+let min = 5;
+let currentNum = 10;
+while (currentNum > min) {
+    currentNum = currentNum - 1;
+    console.log(currentNum);
+    }
 
 ```
 
@@ -110,6 +127,15 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 
 ```
 // Your solution here!
+let total = 0;
+let count = 10;
+while (count > 0) {
+    count = count - 1;
+    total = total + count;
+    }
+console.log('The total is:', total)
+    
+
 
 ```
 
@@ -127,5 +153,16 @@ _THIS IS SUPER IMPORTANT_, otherwise Prettier might destroy your solution:
 
 ```
 // Your solution here!
+let includesNumber;
+let numberToSearchFor = 5;
+let array = [1, 3, 7, 4, 5, 2, 1];
+for (let i = 0; i < array.length; i++) {
+    let item = array[i];
+    if (item === numberToSearchFor) {
+        console.log('Array includes the number!')
+        }
+}
+    
+
 
 ```
