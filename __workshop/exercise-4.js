@@ -1,3 +1,4 @@
+//complete
 function exercise4() {
   // Exercise 4
   // Fix this program
@@ -9,7 +10,9 @@ function exercise4() {
   //
   // Edit only the code between the lines (below)
   // -----------------------------------------------------------------
-  for (let number = 0; number < 12; number++) {
+  let square = 0;
+  for (let num = 0; num < 13; num++) {
+    square = num * num;
     console.log(square);
   }
   // -----------------------------------------------------------------
