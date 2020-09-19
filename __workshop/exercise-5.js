@@ -1,3 +1,4 @@
+//complete
 function exercise5() {
   // Exercise 5
   // Fix this program
@@ -7,11 +8,8 @@ function exercise5() {
   //
   // Edit only the code between the lines (below)
   // -----------------------------------------------------------------
-  for (let number = 0; number < 25; number++) {
-    if (number % 2) {
-      console.log(number);
-    }
-    console.log(number);
+  for (let num = 1; num < 26; num += 2) {
+      console.log(num);
   }
   // -----------------------------------------------------------------
   // Edit only the code between the lines (above)
