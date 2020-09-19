@@ -1,5 +1,6 @@
+//complete
 function exercise3() {
-  // Exercise 3
+  // Exercise 3 - completed
   // Fix this program
   //
   // Expected Output
@@ -7,8 +8,8 @@ function exercise3() {
   //
   // Edit only the code between the lines (below)
   // -----------------------------------------------------------------
-  for (let number = 2; number < 7; number++) {
-    console.log(number);
+  for (let num = 1; num < 6; num++) {
+    console.log(num);
   }
   // -----------------------------------------------------------------
   // Edit only the code between the lines (above)
